@@ -1,0 +1,57 @@
+﻿@page "/Binance/Prices"
+
+@using Binance
+@using Binance.Models 
+
+@inject IBinancePriceAPI _priceData
+@inject IHttpClientFactory _httpClientFactory
+
+<h3>Binance Page</h3>
+
+<h4>Historic price data</h4>
+
+@if (priceModel is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if (priceModel.Prices.Count == 0)
+    {
+        <h5>Unable to find prices</h5>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Price Date</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var price in priceModel.Prices)
+                {
+                    <tr>
+                        <td>price.Date</td>
+                        <td>price.Price</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    // we shouldn't really be using the model from the class library here - when properly implementing this
+    // replace it with model in the DashboardUI project
+    private BinancePriceModel? priceModel;
+
+    protected override async Task OnInitializedAsync()
+    {
+        HttpClient client = _httpClientFactory.CreateClient();
+        //priceModel = await _priceData.GetPrice();
+
+    }
+}
+

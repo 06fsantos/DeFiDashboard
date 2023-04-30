@@ -1,0 +1,80 @@
+04/12/2023 11:59:09 Application Starting Up04/12/2023 11:59:16 HTTP "GET" "/" responded 200 in 1063.0707 ms04/12/2023 11:59:18 HTTP "GET" "/_blazor/initializers" responded 200 in 54.2653 ms04/12/2023 11:59:18 HTTP "POST" "/_blazor/negotiate" responded 200 in 167.6606 ms04/12/2023 11:59:20 HTTP "GET" "/counter" responded 200 in 27.3999 ms04/12/2023 11:59:20 HTTP "GET" "/counter" responded 200 in 43.7149 ms04/12/2023 11:59:22 HTTP "GET" "/_blazor/initializers" responded 200 in 0.2448 ms04/12/2023 11:59:22 HTTP "POST" "/_blazor/negotiate" responded 200 in 0.5039 ms04/12/2023 11:59:26 Counter Value: 104/12/2023 11:59:26 Counter Value: 204/12/2023 11:59:26 Counter Value: 304/12/2023 11:59:27 Counter Value: 404/12/2023 11:59:27 Counter Value: 504/12/2023 11:59:27 Counter Value: 604/12/2023 11:59:27 Counter Value: 704/12/2023 11:59:27 Counter Value: 804/12/2023 11:59:27 Counter Value: 904/12/2023 11:59:28 Counter Value: 1004/12/2023 11:59:28 Counter Value: 1104/12/2023 11:59:46 Counter Value: 104/12/2023 11:59:47 Counter Value: 204/12/2023 11:59:47 Counter Value: 304/12/2023 11:59:47 Counter Value: 404/12/2023 11:59:47 Counter Value: 504/12/2023 11:59:47 Counter Value: 604/12/2023 11:59:47 Counter Value: 704/12/2023 13:36:36 Application Starting Up
+04/12/2023 13:36:42 HTTP "GET" "/" responded 200 in 465.9942 ms
+04/12/2023 13:36:43 HTTP "GET" "/_blazor/initializers" responded 200 in 65.6620 ms
+04/12/2023 13:36:45 HTTP "POST" "/_blazor/negotiate" responded 200 in 51.4055 ms
+04/12/2023 13:36:52 Counter Value: 1
+04/12/2023 13:36:52 Counter Value: 2
+04/12/2023 13:36:52 Counter Value: 3
+04/12/2023 13:36:53 Counter Value: 4
+04/12/2023 13:36:53 Counter Value: 5
+04/12/2023 13:36:53 Counter Value: 6
+04/12/2023 13:36:53 Counter Value: 7
+04/12/2023 13:36:53 Counter Value: 8
+04/12/2023 13:36:53 Counter Value: 9
+04/12/2023 13:36:54 Counter Value: 10
+04/12/2023 13:36:54 Counter Value: 11
+04/12/2023 13:37:00 Counter Value: 1
+04/12/2023 13:37:00 Counter Value: 2
+04/12/2023 13:37:00 Counter Value: 3
+04/12/2023 13:37:00 Counter Value: 4
+04/12/2023 13:37:00 Counter Value: 5
+04/12/2023 13:37:01 Counter Value: 6
+04/12/2023 13:37:01 Counter Value: 7
+04/12/2023 13:37:01 Counter Value: 8
+04/12/2023 13:37:01 Counter Value: 9
+04/12/2023 13:37:01 Counter Value: 10
+04/12/2023 13:37:01 Counter Value: 11
+04/12/2023 13:37:01 Counter Value: 12
+04/12/2023 14:58:43 Application Starting Up
+04/12/2023 14:58:52 HTTP "GET" "/" responded 200 in 2429.9996 ms
+04/12/2023 14:58:55 HTTP "GET" "/_blazor/initializers" responded 200 in 150.0611 ms
+04/12/2023 14:58:56 HTTP "POST" "/_blazor/negotiate" responded 200 in 699.6668 ms
+04/12/2023 15:00:16 Counter Value: 1
+04/12/2023 15:00:16 Counter Value: 2
+04/12/2023 15:00:16 Counter Value: 3
+04/12/2023 15:00:17 Counter Value: 4
+04/12/2023 15:00:17 Counter Value: 5
+04/12/2023 15:00:17 Counter Value: 6
+04/12/2023 15:00:17 Counter Value: 7
+04/12/2023 15:00:17 Counter Value: 8
+04/12/2023 15:01:39 Application Starting Up
+04/12/2023 15:01:45 HTTP "GET" "/" responded 200 in 669.3457 ms
+04/12/2023 15:01:45 HTTP "GET" "/_blazor/initializers" responded 200 in 65.0563 ms
+04/12/2023 15:01:45 HTTP "POST" "/_blazor/negotiate" responded 200 in 56.4754 ms
+04/12/2023 15:01:56 HTTP "POST" "/_blazor/negotiate" responded 200 in 0.4332 ms
+04/12/2023 15:02:01 HTTP "GET" "/_blazor" responded 101 in 5061.0589 ms
+04/12/2023 15:02:01 HTTP "POST" "/_blazor/disconnect" responded 200 in 81.7332 ms
+04/12/2023 15:02:03 Counter Value: 1
+04/12/2023 15:02:04 Counter Value: 2
+04/12/2023 15:02:04 Counter Value: 3
+04/12/2023 15:02:04 Counter Value: 4
+04/12/2023 15:02:04 Counter Value: 5
+04/12/2023 15:02:04 Counter Value: 6
+04/12/2023 15:02:04 Counter Value: 7
+04/12/2023 15:02:04 Counter Value: 8
+04/12/2023 15:08:12 Counter Value: 9
+04/12/2023 15:08:12 Counter Value: 10
+04/12/2023 15:08:12 Counter Value: 11
+04/12/2023 15:08:12 Counter Value: 12
+04/12/2023 15:08:12 Counter Value: 13
+04/12/2023 15:08:13 Counter Value: 14
+04/12/2023 15:08:13 Counter Value: 15
+04/12/2023 15:08:13 Counter Value: 16
+04/12/2023 15:12:06 Counter Value: 17
+04/12/2023 15:12:06 Counter Value: 18
+04/12/2023 15:12:06 Counter Value: 19
+04/12/2023 15:12:06 Counter Value: 20
+04/12/2023 15:12:07 Counter Value: 21
+04/12/2023 15:12:07 Counter Value: 22
+04/12/2023 15:12:26 Counter Value: 23
+04/12/2023 15:12:26 HTTP "GET" "/counter" responded 200 in 362.5608 ms
+04/12/2023 15:12:26 HTTP "POST" "/_blazor/disconnect" responded 200 in 60.4113 ms
+04/12/2023 15:12:27 HTTP "GET" "/_blazor" responded 101 in 640549.4152 ms
+04/12/2023 15:12:27 HTTP "GET" "/_blazor/initializers" responded 200 in 3.1831 ms
+04/12/2023 15:12:27 HTTP "POST" "/_blazor/negotiate" responded 200 in 1.1366 ms
+04/12/2023 15:12:33 Counter Value: 1
+04/12/2023 15:12:33 Counter Value: 2
+04/12/2023 15:12:33 Counter Value: 3
+04/12/2023 15:12:33 Counter Value: 4
+04/12/2023 15:12:33 Counter Value: 5
+04/12/2023 15:12:33 Counter Value: 6
